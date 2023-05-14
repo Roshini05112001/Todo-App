@@ -131,6 +131,30 @@ h1{
   color: rgb(18, 148, 23);
 }
 
+@media only screen and (max-width: 600px) {
+  .todo-wrapper {
+    padding: 20px;
+  }
+  .todo-input {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .todo-input-item {
+    margin-bottom: 20px;
+  }
+  .btn-area {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 20px;
+  }
+  .todo-list-item {
+    margin-bottom: 20px;
+  }
+  .icon {
+    margin-right: 10px;
+  }
+}
 
 
 

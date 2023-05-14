@@ -84,13 +84,13 @@ function App() {
 
   return (
     <div className='App'>
-      <h1>My Todos</h1>
+      <h1>My Todo's</h1>
       <div className='todo-wrapper'>
 
         <div className='todo-input'>
           <div className='todo-input-item'>
-            <label>Tittle:</label>
-            <input type='text' value={newTittle} onChange={(e)=>setnewTittle(e.target.value)} placeholder="What's the Tittle?"/> 
+            <label>Title:</label>
+            <input type='text' value={newTittle} onChange={(e)=>setnewTittle(e.target.value)} placeholder="What's the Title?"/> 
           </div>
           <div className='todo-input-item'>
             <label>Description:</label>
